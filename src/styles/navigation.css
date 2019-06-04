@@ -9,6 +9,7 @@ nav.main a{
     text-transform: uppercase;
     font-weight: bold;
     padding: 10px;
+    margin-right: 8vh;
 }
 
 nav.main a:hover {
