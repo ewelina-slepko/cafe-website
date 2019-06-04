@@ -8,7 +8,24 @@ import Footer from './Footer';
 
 function App() {
   return (
-
+    <Router>
+      <div className="app">
+        <header>
+          <Header />
+        </header>
+        <main>
+          <aside>
+            <Navigation />
+          </aside>
+          <section className="blog">
+            <Page />
+          </section>
+        </main>
+        <footer>
+          <Footer />
+        </footer>
+      </div>
+    </Router>
 
   );
 }
