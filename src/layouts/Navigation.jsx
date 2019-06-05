@@ -4,9 +4,10 @@ import '../styles/navigation.css';
 
 const list = [
     { name: 'start', path: "/", exact: true },
+    { name: 'blog', path: "/blog" },
     { name: 'coffee', path: "/coffee" },
-    { name: 'cookies & cupcakes', path: "/cookies&cupcakes" },
     { name: 'art corner', path: "/artcorner" },
+    { name: 'gallery', path: "/gallery" },
     { name: 'contact', path: "/contact" },
 ]
 
