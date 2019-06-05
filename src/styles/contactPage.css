@@ -3,3 +3,22 @@
     font-size: 16px;
     min-height: 200px;
 }
+
+.contact button{
+    display: block;
+    background-color: #888;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: 2s;
+}
+
+.contact button:hover{
+    background-color: #afabab;
+}
+
