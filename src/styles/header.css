@@ -1,10 +1,10 @@
-header{
+.header{
     position: relative;
+    display: inline-block;
     overflow: hidden;
     flex-basis: 100vh;
 }
-
-header img{
+.header img{
     position: absolute;
     top: 50%;
     left: 50%;

@@ -10,10 +10,10 @@ function App() {
   return (
     <Router>
       <div className="app">
-        <header>
-          <Navigation />
+        <div className="header">
           <Header />
-        </header>
+          <Navigation />
+        </div>
         <h1>Welcome to ART'S CORNER CAFÉ!</h1>
         <main>
           <section className="blog">
