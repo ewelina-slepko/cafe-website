@@ -23,12 +23,15 @@ class Contact extends React.Component {
                 <form>
                     <h3>Write us a message</h3>
                     <textarea onChange={this.handleChange} value={this.state.value} placeholder="message..."></textarea>
-                    <button onClick={this.handleSubmit}><span>Send</span></button>
+                    <div data-aos="fade-up"
+                        data-aos-anchor-placement="bottom">
+                        <button onClick={this.handleSubmit}><span>Send</span></button>
+                    </div>
                 </form>
                 <Prompt
                     when={this.state.value}
                     message="If you change the path you'll lose your message. Are you sure you want to quit?" />
-            </div>
+            </div >
 
         );
     }
