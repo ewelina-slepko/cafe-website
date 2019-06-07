@@ -1,33 +1,27 @@
-main{
-    display: flex;
-    flex-grow: 1;
-  }
-
 .main ul{
     list-style-type: none;
 }
 
 nav.main a{
-    display: block;
+  
+    display: inline-block;
+    float: right;
     text-decoration: none;
     color: #222;
     text-transform: uppercase;
     font-weight: bold;
-    padding: 10px;
+    padding: 16px;
+    border-bottom: 5px #ededed solid;
 }
 
 nav.main a:hover {
     color: #555;
-    transform: translateX(20px);
+    transform: translateY(6px);
     transition: .5s;
 }
 
 nav.main a.active{
     color: #75777c;
-    border-left: 10px #333 solid;
-    transform: translateX(0)
-}
-
-aside{
-    min-width: 240px;
+    border-bottom: 5px #333 solid;
+    transform: translateY(0)
 }

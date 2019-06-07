@@ -30,17 +30,16 @@ class Header extends Component {
     };
 
     render = () => (
-        <>
-            <TransitionGroup>
-                <CSSTransition
-                    key={this.state.selected.id}
-                    timeout={1000}
-                    classNames="messageout"
-                >
-                    <img className="header-image" src={this.state.selected.src} />
-                </CSSTransition>
-            </TransitionGroup>
-        </>
+
+        <TransitionGroup>
+            <CSSTransition
+                key={this.state.selected.id}
+                timeout={1000}
+                classNames="messageout"
+            >
+                <img className="header-image" src={this.state.selected.src} />
+            </CSSTransition>
+        </TransitionGroup>
     );
 }
 

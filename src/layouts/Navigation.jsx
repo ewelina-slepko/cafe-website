@@ -12,15 +12,12 @@ const list = [
 
 const Navigation = () => {
     const menu = list.map(item => (
-        <NavLink key={item.name} to={item.path} exact={item.exact}>{item.name}<br /></NavLink>
+        <NavLink key={item.name} to={item.path} exact={item.exact}>{item.name}</NavLink>
     ));
     return (
         <nav className="main">
-            <ul>
-                {menu}
-            </ul>
+            {menu}
         </nav >
-
     );
 }
 

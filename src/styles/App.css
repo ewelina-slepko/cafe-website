@@ -15,5 +15,10 @@ div.app{
    
   }
   
+.app h1{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #ededed;
+    padding: 30px;
+}
 
-  

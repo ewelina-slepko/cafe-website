@@ -11,12 +11,11 @@ function App() {
     <Router>
       <div className="app">
         <header>
+          <Navigation />
           <Header />
         </header>
+        <h1>Welcome to ART'S CORNER CAFÉ!</h1>
         <main>
-          <aside>
-            <Navigation />
-          </aside>
           <section className="blog">
             <Page />
           </section>
