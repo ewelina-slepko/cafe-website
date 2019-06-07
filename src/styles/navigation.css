@@ -1,3 +1,8 @@
+main{
+    display: flex;
+    flex-grow: 1;
+  }
+
 .main ul{
     list-style-type: none;
 }
@@ -18,7 +23,11 @@ nav.main a:hover {
 }
 
 nav.main a.active{
-    color: #fff;
+    color: #75777c;
     border-left: 10px #333 solid;
     transform: translateX(0)
+}
+
+aside{
+    min-width: 240px;
 }

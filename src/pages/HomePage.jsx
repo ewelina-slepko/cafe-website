@@ -3,7 +3,9 @@ import React from 'react';
 
 const HomePage = () => {
     return (
-        <div>Strona Startowa</div>
+        <div>
+            <h1>Welcome to Art Cafe!</h1>
+        </div>
     );
 }
 

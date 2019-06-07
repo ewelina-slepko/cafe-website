@@ -1,6 +1,7 @@
 header{
     position: relative;
     overflow: hidden;
+    flex-basis: 100vh;
 }
 
 header img{
@@ -11,7 +12,6 @@ header img{
     min-width: 100%;
     min-height: 100%;
 }
-
 
 .messageout-enter {
     color: transparent;

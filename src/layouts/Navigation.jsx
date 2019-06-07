@@ -4,7 +4,6 @@ import '../styles/navigation.css';
 
 const list = [
     { name: 'start', path: "/", exact: true },
-    { name: 'blog', path: "/blog" },
     { name: 'art corner', path: "/artcorner" },
     { name: 'gallery', path: "/gallery" },
     { name: 'contact', path: "/contact" },
