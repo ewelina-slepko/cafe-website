@@ -2,13 +2,19 @@ footer{
     background-color: #151616; 
     color: #fff;
     padding: 70px;
+}
+
+.footer_content{
+    display: flex;
+}
+
+.section{
+    flex: 1;
     text-align: center;
 }
 
-footer p{
-    padding: 10px;
-}
 
-footer span{
-    padding: 10px;
-}
+
+
+
+
