@@ -1,11 +1,9 @@
 .main{
+    justify-content: flex-end;
+    display: flex;
     position: absolute;
     right: 0;
     width: 100%;
-    background-color: rgba(22, 21, 21, 0.6)  ;
-    display: flex;
-    justify-content: flex-end;
-
 }
 
 .main ul{
@@ -19,7 +17,8 @@ nav.main a{
     text-transform: uppercase;
     font-weight: bold;
     padding: 12px;
-    font-size: 22px;
+    font-size: 20px;
+    letter-spacing: 2px;
     cursor: pointer;
 }
 

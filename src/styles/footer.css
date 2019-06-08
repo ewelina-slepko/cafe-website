@@ -1,19 +1,54 @@
 footer{
     background-color: #151616; 
     color: #fff;
-    padding: 70px;
+    padding: 40px 0;
+    font-size: 16px;
+}
+
+.footer_container{
+    display: flex;
+    justify-content: center;
 }
 
 .footer_content{
     display: flex;
+    justify-content: center;
+    max-width: 60%; 
 }
 
 .section{
     flex: 1;
     text-align: center;
+    padding: 14px;
 }
 
+.section h3{
+    text-transform: uppercase;
+    padding: 5px 0;
+}
 
+.section p{
+    padding: 5px 0;
+}
+
+.links{
+    flex: 1;
+    text-align: center;
+    padding: 14px;
+}
+
+.links h3{
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 5px 0;
+}
+
+.copyright{
+    text-align: center;
+    font-size: 12px;
+    padding: 60px 0 20px 0;
+}
 
 
 
