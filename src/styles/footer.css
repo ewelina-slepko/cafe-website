@@ -44,11 +44,19 @@ footer{
     padding: 5px 0;
 }
 
+.links h3:hover{
+    color: #636364;
+    transform: translateY(1px);
+    transition: .5s;
+}
+
 .copyright{
     text-align: center;
-    font-size: 12px;
+    color: #636364;
+    font-size: 14px;
     padding: 60px 0 20px 0;
 }
+
 
 
 

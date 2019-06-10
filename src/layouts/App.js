@@ -5,8 +5,12 @@ import Header from './Header';
 import Navigation from './Navigation';
 import Page from './Page';
 import Footer from './Footer';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faCheckSquare, faCoffee, faLaptop } from '@fortawesome/free-solid-svg-icons'
 
 function App() {
+  library.add(fab, faCheckSquare, faCoffee, faLaptop)
   return (
     <Router>
       <div className="app">
@@ -22,9 +26,11 @@ function App() {
         </main>
         <footer>
           <Footer />
+          <div>
+          </div>
         </footer>
       </div>
-    </Router>
+    </Router >
   );
 }
 
