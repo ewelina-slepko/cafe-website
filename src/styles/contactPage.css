@@ -1,24 +1,33 @@
+.contact{
+    display: flex;
+    justify-content: center;
+}
+
 .contact textarea{
-    width: 80%;
+    flex-grow: 2;
+    width: 600px;
     font-size: 16px;
     min-height: 200px;
+    border: 1px solid #e8e8e8;
+    outline: none;
 }
 
 .contact button{
     display: block;
-    background-color: #888;
+    background-color: #151616;
+    border-radius: 3px;
     border: none;
     color: white;
     padding: 15px 32px;
+    margin: 4px 2px;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-    margin: 4px 2px;
     cursor: pointer;
     transition: 2s;
 }
 
 .contact button:hover{
-    background-color: #afabab;
+    background-color: #575454
 }
 

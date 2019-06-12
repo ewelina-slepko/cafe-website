@@ -6,12 +6,15 @@
   margin: 0 auto
 }  
 
-
-
 .img-responsive{
   flex: 1;
   width: 300px;
   height: 300px;
   margin: 16px;
   object-fit: cover;
+}
+
+.img-responsive:hover{
+  opacity: .8;
+  transition: .5s;
 }

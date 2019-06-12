@@ -21,8 +21,8 @@ class Contact extends React.Component {
         return (
             <div className="contact" >
                 <form>
-                    <h3>Write us a message</h3>
-                    <textarea onChange={this.handleChange} value={this.state.value} placeholder="message..."></textarea>
+                    <h3 style={{ padding: 12 }}>Write us a message: </h3>
+                    <textarea onChange={this.handleChange} value={this.state.value}></textarea>
                     <div data-aos="fade-up"
                         data-aos-anchor-placement="bottom">
                         <button onClick={this.handleSubmit}><span>Send</span></button>
