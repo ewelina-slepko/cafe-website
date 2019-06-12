@@ -16,21 +16,26 @@ import gallery12 from '../images/gallery/gallery12.jpg'
 import gallery13 from '../images/gallery/gallery13.jpg'
 import gallery14 from '../images/gallery/gallery14.jpg'
 import gallery15 from '../images/gallery/gallery15.jpg'
+import gallery16 from '../images/gallery/gallery16.jpg'
+import gallery17 from '../images/gallery/gallery17.jpg'
+import gallery18 from '../images/gallery/gallery18.jpg'
 
 
 
 const Gallery = () => {
     const fullGallery = [gallery1, gallery2, gallery3, gallery4, gallery5, gallery6, gallery7,
-        gallery8, gallery9, gallery10, gallery11, gallery12, gallery13, gallery14, gallery15].map(img => {
-            return <img
+        gallery8, gallery9, gallery10, gallery11, gallery12, gallery13, gallery14, gallery15, gallery16, gallery17, gallery18].map(img => {
+            return <figure> <img
                 src={img}
                 alt={img}
-                className="img-responsive" />
+                className="img-responsive" /></figure>
         });
     return (
         <>
-            <div>Beautiful gallery!</div>
-            <div>{fullGallery}</div>
+            <div className="gallery_container">
+                {fullGallery}
+            </div>
+
         </>
     );
 }
