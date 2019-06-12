@@ -1,8 +1,23 @@
 .info{
     display: flex;
     justify-content: center;
+    background-color: #ededed;
 }
 
 .info_text{
-    max-width: 60%;
+    max-width: 70%;
+    padding-bottom: 100px;
+}
+
+.info_text p{
+    padding: 30px;
+    text-align: justify;
+}
+
+.info_text h1{
+    text-align: center;
+    text-transform: uppercase;
+    background: none;
+    padding: 10px;
+    margin-top: 50px;
 }
