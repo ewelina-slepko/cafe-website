@@ -25,10 +25,14 @@ import gallery18 from '../images/gallery/gallery18.jpg'
 const Gallery = () => {
     const fullGallery = [gallery1, gallery2, gallery3, gallery4, gallery5, gallery6, gallery7,
         gallery8, gallery9, gallery10, gallery11, gallery12, gallery13, gallery14, gallery15, gallery16, gallery17, gallery18].map(img => {
-            return <figure> <img
-                src={img}
-                alt={img}
-                className="img-responsive" /></figure>
+            return <div data-aos="fade-up"
+                data-aos-offset="50"
+                data-aos-easing="ease-in-sine">
+                <img
+                    src={img}
+                    alt={img}
+                    className="img-responsive"
+                /></div>
         });
     return (
         <>

@@ -1,6 +1,7 @@
 .contact{
     display: flex;
     justify-content: center;
+    padding: 20px;
 }
 
 .contact textarea{
@@ -15,16 +16,18 @@
 .contact button{
     display: block;
     background-color: #151616;
-    border-radius: 3px;
+    border-radius: 5px;
     border: none;
+    outline: none;
     color: white;
     padding: 15px 32px;
     margin: 4px 2px;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
+    text-transform: uppercase;
     cursor: pointer;
-    transition: 2s;
+    transition: .3s;
 }
 
 .contact button:hover{
