@@ -9,29 +9,33 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faCheckSquare, faCoffee, faLaptop } from '@fortawesome/free-solid-svg-icons'
 
-function App() {
-  library.add(fab, faCheckSquare, faCoffee, faLaptop)
-  return (
-    <Router>
-      <div className="app">
-        <div className="header">
-          <Header />
-          <Navigation />
-        </div>
-        <h1>Welcome to ART'S CORNER CAFÉ!</h1>
-        <main>
-          <section className="blog">
-            <Page />
-          </section>
-        </main>
-        <footer>
-          <Footer />
-          <div>
+class App extends React.Component {
+
+
+  render() {
+    library.add(fab, faCheckSquare, faCoffee, faLaptop)
+    return (
+      <Router>
+        <div className="app">
+          <div className="header">
+            <Header />
+            <Navigation />
           </div>
-        </footer>
-      </div>
-    </Router >
-  );
+          <h1>Welcome to ART'S CORNER CAFÉ!</h1>
+          <main>
+            <section className="blog">
+              <Page />
+            </section>
+          </main>
+          <footer>
+            <Footer />
+            <div>
+            </div>
+          </footer>
+        </div>
+      </Router >
+    );
+  }
 }
 
 export default App;

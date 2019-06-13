@@ -9,10 +9,10 @@ const list = [
     { name: 'contact', path: "/contact" },
 ]
 
+const Navigation = (props) => {
 
-const Navigation = () => {
     const menu = list.map(item => (
-        <NavLink key={item.name} to={item.path} exact={item.exact}>{item.name} </NavLink>
+        <NavLink key={item.name} to={item.path} exact={item.exact}>{item.name}</NavLink>
     ));
     return (
         <nav className="main" >

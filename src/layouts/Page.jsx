@@ -6,7 +6,6 @@ import Gallery from '../pages/Gallery';
 import ContactPage from '../pages/ContactPage';
 import ErrorPage from '../pages/ErrorPage';
 
-import ScrollIntoViewIfNeeded from 'react-scroll-into-view-if-needed';
 
 const Page = (props) => {
     return (
