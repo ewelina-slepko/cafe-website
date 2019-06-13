@@ -6,7 +6,9 @@ import Gallery from '../pages/Gallery';
 import ContactPage from '../pages/ContactPage';
 import ErrorPage from '../pages/ErrorPage';
 
-const Page = () => {
+import ScrollIntoViewIfNeeded from 'react-scroll-into-view-if-needed';
+
+const Page = (props) => {
     return (
         <>
             <Switch>
@@ -16,7 +18,6 @@ const Page = () => {
                 <Route path="/contact" component={ContactPage} />
                 <Route component={ErrorPage} />
             </Switch>
-
         </>
     );
 }
