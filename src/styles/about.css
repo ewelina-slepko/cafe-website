@@ -1,7 +1,6 @@
 .info{
     display: flex;
     justify-content: center;
-    /* height: 100%; */
 }
 
 .info_text p{
