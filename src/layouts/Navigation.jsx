@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import styles from '../styles/navigation.module.css';
+import '../styles/trial.css';
 
 const list = [
     { name: 'about', path: "/about", exact: true },
@@ -10,14 +11,23 @@ const list = [
 ]
 
 const Navigation = () => {
-
     const menu = list.map(item => (
-        <NavLink key={item.name} to={item.path} exact={item.exact}>{item.name}</NavLink>
+        <NavLink key={item.name} to={item.path} exact={item.exact}><li>{item.name}</li></NavLink>
     ));
     return (
-        <nav className={styles["main"]} >
-            {menu}
-        </nav >
+        <>
+            <nav className="navigation">
+                <div id="menuToggle">
+                    <input type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul id="menu">
+                        {menu}
+                    </ul>
+                </div>
+            </nav >
+        </>
     );
 }
 
