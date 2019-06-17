@@ -3,13 +3,13 @@ form{
     padding: 10px;
 }
 
-.contact{
+.container{
     display: flex;
     max-width: 700px;
     margin: 0 auto;
 }
 
-.contact textarea{
+.container textarea{
     width: 100%;
     font-size: 16px;
     min-height: 200px;
@@ -17,7 +17,7 @@ form{
     outline: none;
 }
 
-.contact button{
+.container button{
     display: block;
     background-color: #151616;
     border-radius: 5px;
@@ -34,7 +34,7 @@ form{
     transition: .3s;
 }
 
-.contact button:hover{
+.container button:hover{
     background-color: #575454
 }
 

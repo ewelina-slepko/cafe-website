@@ -8,7 +8,6 @@ const About = () => {
         <ScrollIntoViewIfNeeded options={{
             block: 'nearest',
             behavior: 'smooth',
-
         }}>
             <div className={styles["container"]}>
                 <div className={styles["info_text"]}>
@@ -29,7 +28,6 @@ const About = () => {
                     to fill the world with art and that the art belongs to all of us.</p>
                     </div>
 
-
                     <div className={styles["part-two"]} div data-aos="fade-left"
                         data-aos-offset="400"
                         data-aos-easing="ease-in-sine">
@@ -48,7 +46,6 @@ const About = () => {
                             to the farmers, and not to middle-men. The coffee these farmers produce is also organic, meaning it's better for me and
                     you and for the environment.</p>
                     </div>
-
                 </div>
             </div >
         </ScrollIntoViewIfNeeded>

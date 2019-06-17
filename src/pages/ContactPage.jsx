@@ -1,6 +1,6 @@
 import React from 'react';
 import { Prompt } from 'react-router-dom'
-import '../styles/contactPage.css';
+import styles from '../styles/contactPage.module.css';
 
 import ScrollIntoViewIfNeeded from 'react-scroll-into-view-if-needed';
 
@@ -25,7 +25,7 @@ class Contact extends React.Component {
                 block: 'nearest',
                 behavior: 'smooth'
             }}>
-                <div className="contact" >
+                <div className={styles["container"]} >
                     <form>
                         <h3 style={{ padding: 12 }}>Write us a message: </h3>
                         <textarea onChange={this.handleChange} value={this.state.value}></textarea>

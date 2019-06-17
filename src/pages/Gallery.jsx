@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/gallery.css'
+import styles from '../styles/gallery.module.css'
 
 import gallery1 from '../images/gallery/gallery1.jpg'
 import gallery2 from '../images/gallery/gallery2.jpg'
@@ -33,7 +33,7 @@ const Gallery = () => {
                 <img
                     src={img}
                     alt={img}
-                    className="img-responsive"
+                    className={styles["img-responsive"]}
                 /></div>
         });
     return (
@@ -42,7 +42,7 @@ const Gallery = () => {
                 block: 'nearest',
                 behavior: 'smooth'
             }}>
-                <div className="gallery_container">
+                <div className={styles["container"]}>
                     {fullGallery}
                 </div>
             </ScrollIntoViewIfNeeded>

@@ -17,10 +17,8 @@ class App extends React.Component {
     return (
       <Router>
         <div className="app">
-
           <Header />
           <Navigation />
-
           <div data-aos="flip-up"
             data-aos-duration="500">
             <h1>Welcome to ART'S CORNER CAFÉ!</h1>

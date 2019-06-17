@@ -1,4 +1,4 @@
-.artcorner_container{
+.container{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -7,7 +7,7 @@
     margin: 0 auto;
 }
 
-.section-img{
+.img{
     flex-grow: 1;
     max-width: 400px;
     max-height: 400px;
@@ -15,7 +15,7 @@
     object-fit: cover;
     padding: 5px 0;
 }
-.section-text{
+.text{
     flex-grow: 2;
     max-width: 700px;
     margin: 16px;
@@ -27,9 +27,14 @@
     font-style: italic;
 }
 
-.section-list{
+.list{
     margin: 0 auto;
     width: 80%;
     text-align: justify;
+}
+
+.list h1{
+    padding: 40px;
+    background: none;
 }
 
