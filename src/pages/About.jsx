@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/about.css'
+import styles from '../styles/about.module.css'
 
 import ScrollIntoViewIfNeeded from 'react-scroll-into-view-if-needed';
 
@@ -10,9 +10,9 @@ const About = () => {
             behavior: 'smooth',
 
         }}>
-            <div className="info">
-                <div className="info_text">
-                    <div className="part-one" data-aos="fade-right"
+            <div className={styles["container"]}>
+                <div className={styles["info_text"]}>
+                    <div className={styles["part-one"]} data-aos="fade-right"
                         data-aos-offset="400"
                         data-aos-easing="ease-in-sine">
                         <h1>Our philosophy</h1>
@@ -30,7 +30,7 @@ const About = () => {
                     </div>
 
 
-                    <div className="part-two" div data-aos="fade-left"
+                    <div className={styles["part-two"]} div data-aos="fade-left"
                         data-aos-offset="400"
                         data-aos-easing="ease-in-sine">
                         <h1>Coffee and drinks</h1>

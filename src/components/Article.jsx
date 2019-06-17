@@ -7,8 +7,6 @@ const Article = ({ img, title, author, text }) => {
     }
 
     return (
-
-
         <article style={styles}>
             <img style={{
                 width: "50vh",
@@ -34,8 +32,6 @@ const Article = ({ img, title, author, text }) => {
                 }}>{text}</p>
             </div>
         </article>
-
-
     );
 }
 

@@ -1,4 +1,4 @@
-.info{
+.container{
     display: flex;
     justify-content: center;
 }
@@ -11,7 +11,7 @@
     text-indent: 1.5em;
 }
 
-.info_text h1{
+.icontainer_text h1{
     background: none;
     text-align: center;
     text-transform: uppercase;
