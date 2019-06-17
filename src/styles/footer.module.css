@@ -5,13 +5,13 @@ footer{
     font-size: 14px;
 }
 
-.footer_container{
+.container{
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.footer_content{
+.content{
     max-width: 60%;
     display: flex;
     justify-content: center;
@@ -58,8 +58,3 @@ footer{
     font-size: 14px;
     padding: 60px 0 20px 0;
 }
-
-
-
-
-

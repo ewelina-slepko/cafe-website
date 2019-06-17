@@ -20,3 +20,21 @@ div.app{
     padding: 30px;
 }
 
+.messageout-enter {
+  color: transparent;
+}
+
+
+.messageout-enter-active {
+  transition: all 
+}
+
+.messageout-exit {
+
+}
+
+
+.messageout-exit-active {
+  opacity: 0;
+  transition: all 1000ms ease-in-out;
+}

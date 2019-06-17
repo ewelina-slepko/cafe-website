@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { CSSTransition, TransitionGroup } from "react-transition-group";
-import '../styles/header.css'
-
+import styles from '../styles/header.module.css'
 import image1 from '../images/image1.jpg'
 import image2 from '../images/image2.jpg'
 import image3 from '../images/image3.jpg'
@@ -31,15 +30,17 @@ class Header extends Component {
 
     render = () => (
         <>
-            <TransitionGroup>
-                <CSSTransition
-                    key={this.state.selected.id}
-                    timeout={1000}
-                    classNames="messageout"
-                >
-                    <img className="header-image" src={this.state.selected.src} />
-                </CSSTransition>
-            </TransitionGroup>
+            <div className={styles["container"]}>
+                <TransitionGroup>
+                    <CSSTransition
+                        key={this.state.selected.id}
+                        timeout={1000}
+                        classNames="messageout"
+                    >
+                        <img src={this.state.selected.src} />
+                    </CSSTransition>
+                </TransitionGroup>
+            </div>
         </>
     );
 }

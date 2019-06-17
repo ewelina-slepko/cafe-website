@@ -2,7 +2,6 @@ import React from 'react';
 import '../styles/artCornerPage.css'
 import art_corner1 from '../images/art_corner/art_corner1.jpg'
 import art_corner2 from '../images/art_corner/art_corner2.jpg'
-import art_corner3 from '../images/art_corner/art_corner3.jpg'
 import art_corner4 from '../images/art_corner/art_corner4.jpg'
 
 import ScrollIntoViewIfNeeded from 'react-scroll-into-view-if-needed';

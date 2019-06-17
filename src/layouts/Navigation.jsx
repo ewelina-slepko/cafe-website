@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import '../styles/navigation.css';
+import styles from '../styles/navigation.module.css';
 
 const list = [
     { name: 'about', path: "/about", exact: true },
@@ -15,7 +15,7 @@ const Navigation = () => {
         <NavLink key={item.name} to={item.path} exact={item.exact}>{item.name}</NavLink>
     ));
     return (
-        <nav className="main" >
+        <nav className={styles["main"]} >
             {menu}
         </nav >
     );
