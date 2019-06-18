@@ -27,7 +27,7 @@ class Contact extends React.Component {
             }}>
                 <div className={styles["container"]} >
                     <form>
-                        <h3 style={{ padding: 12 }}>Write us a message: </h3>
+                        <h2 style={{ padding: 12 }}>Write us a message: </h2>
                         <textarea onChange={this.handleChange} value={this.state.value}></textarea>
                         <button onClick={this.handleSubmit}><span>Send</span></button>
                     </form>
