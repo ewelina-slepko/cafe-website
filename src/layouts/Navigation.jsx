@@ -15,7 +15,10 @@ const Navigation = () => {
     ));
     return (
         <>
-            <h1>Art's Corner Café</h1>
+            <h1 data-aos="flip-down"
+                data-aos-offset="500"
+            >
+                Art's Corner Café</h1>
             <nav className="navigation">
                 <div id="menuToggle">
                     <input type="checkbox" />

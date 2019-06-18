@@ -29,7 +29,9 @@ class Contact extends React.Component {
                     <form>
                         <h2 style={{ padding: 12 }}>Write us a message: </h2>
                         <textarea onChange={this.handleChange} value={this.state.value}></textarea>
-                        <button onClick={this.handleSubmit}><span>Send</span></button>
+                        <button data-aos="flip-down"
+                            data-aos-offset="50"
+                            onClick={this.handleSubmit}><span>Send</span></button>
                     </form>
                     <Prompt
                         when={this.state.value}

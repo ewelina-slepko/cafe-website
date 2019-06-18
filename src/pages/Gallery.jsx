@@ -26,15 +26,11 @@ import ScrollIntoViewIfNeeded from 'react-scroll-into-view-if-needed';
 const Gallery = () => {
     const fullGallery = [gallery1, gallery2, gallery3, gallery4, gallery5, gallery6, gallery7,
         gallery8, gallery9, gallery10, gallery11, gallery12, gallery13, gallery14, gallery15, gallery16, gallery17, gallery18].map(img => {
-            return <div data-aos="fade-up"
-                data-aos-anchor-placement="center-bottom"
-                data-aos-offset="50"
-            >
-                <img
-                    src={img}
-                    alt={img}
-                    className={styles["img-responsive"]}
-                /></div>
+            return <div><img
+                src={img}
+                alt={img}
+                className={styles["img-responsive"]}
+            /></div>
         });
     return (
         <>
