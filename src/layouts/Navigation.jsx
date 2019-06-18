@@ -1,7 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import styles from '../styles/navigation.module.css';
-import '../styles/trial.css';
+import '../styles/navigation.css';
 
 const list = [
     { name: 'about', path: "/about", exact: true },
@@ -16,6 +15,7 @@ const Navigation = () => {
     ));
     return (
         <>
+            <h1>Art's Corner Café</h1>
             <nav className="navigation">
                 <div id="menuToggle">
                     <input type="checkbox" />

@@ -13,12 +13,6 @@ div.app{
     flex-grow: 1;
   }
   
-.app h1{
-    text-align: center;
-    text-transform: uppercase;
-    background-color: #ededed;
-    padding: 30px;
-}
 
 .messageout-enter {
   color: transparent;

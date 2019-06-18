@@ -42,7 +42,7 @@ const ArtCorner = () => {
 
                     <div style={{ width: '100%', padding: '50px 0 100px 0', backgroundColor: '#ededed' }} >
                         <ul className={styles["list"]}>
-                            <h1>Course Outcomes</h1>
+                            <h2>Course Outcomes</h2>
                             <li>Research best practice, including basic, advanced, and color theory techniques, for watercolor painting in the classroom setting.</li>
                             <li>Explore ideation strategies for developing concept-based lessons and artwork.</li>
                             <li>Create resources and hands-on examples to use directly in the classroom.</li>

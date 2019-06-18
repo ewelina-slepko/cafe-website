@@ -11,11 +11,11 @@
     text-indent: 1.5em;
 }
 
-.icontainer_text h1{
+.container h2{
     background: none;
     text-align: center;
     text-transform: uppercase;
-    padding-top: 60px;
+    padding: 60px 30px 30px 30px;
 }
 
 .part-one{

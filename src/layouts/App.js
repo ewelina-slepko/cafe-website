@@ -21,7 +21,7 @@ class App extends React.Component {
           <Navigation />
           <div data-aos="flip-up"
             data-aos-duration="500">
-            <h1>Welcome to ART'S CORNER CAFÉ!</h1>
+
           </div>
           <main>
             <section className="blog">

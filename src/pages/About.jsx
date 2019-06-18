@@ -14,7 +14,7 @@ const About = () => {
                     <div className={styles["part-one"]} data-aos="fade-right"
                         data-aos-offset="400"
                         data-aos-easing="ease-in-sine">
-                        <h1>Our philosophy</h1>
+                        <h2>Our philosophy</h2>
                         <p >Art is a powerful tool. It help us to see connections and brings more coherent meaning to our world.
                             It has the power to create, inspire, and make a change. Art cafe is our environment to inspire this change.
                         We want everyone to connect. We want you to drink coffee, think, share, travel, love and create art.
@@ -31,7 +31,7 @@ const About = () => {
                     <div className={styles["part-two"]} div data-aos="fade-left"
                         data-aos-offset="400"
                         data-aos-easing="ease-in-sine">
-                        <h1>Coffee and drinks</h1>
+                        <h2>Coffee and drinks</h2>
                         <p>A cup of coffee is an intimate experience. It is a daily ritual that helps kick-start our day. So why do we rush something that
                             can be enjoyed? Why are we willing to sacrifice taste and freshness of something so integral to our day? We strongly believe
                             that each cup of coffee we make is not only the freshest cup you can get but also the best. We take our time freshly grinding
