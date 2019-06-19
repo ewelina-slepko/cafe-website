@@ -1,5 +1,6 @@
 @media (min-width: 992px){
     .navigation{
+        z-index: 10;  
         justify-content: flex-end;
         display: flex;
         position: absolute;
@@ -41,6 +42,8 @@
         display: none;
     }
     h1{
+      position: sticky;
+      top: 0;
       position: absolute;
       font-size: 25px;
       font-family: 'Dancing Script', cursive;
@@ -53,8 +56,6 @@
   }
 }
 
-
-
 @media (max-width: 992px){
 
 .navigation{
@@ -64,8 +65,9 @@
 }
 
 h1{
+  position:fixed;
   width: 100%;
-  position: absolute;
+  /* position: absolute; */
   font-size: 14px;
   font-family: 'Dancing Script', cursive;
   text-align: right;
@@ -84,7 +86,8 @@ a:hover{
 }
 
 #menuToggle{
-  position: relative;
+  position:fixed;
+  /* position: relative; */
   top: 20px;
   left: 20px;
   z-index: 1;
@@ -148,7 +151,7 @@ a:hover{
 
 #menu
 {
-  position: absolute;
+  position:fixed;
   width: 300px;
   height: 100%;
   margin: -100px 0 0 -50px;

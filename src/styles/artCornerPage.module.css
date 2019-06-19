@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -18,10 +18,10 @@
 .text{
     flex-grow: 2;
     max-width: 700px;
-    margin: 16px;
-    padding: 5px 30px;
+    margin: 10px;
+    padding: 5px 10px;
     text-align: justify;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     line-height: 1.6;
     font-style: italic;
 }

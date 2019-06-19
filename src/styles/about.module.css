@@ -6,7 +6,7 @@
 .info_text p{
     padding: 10px 0;
     text-align: justify;
-    max-width: 70%;
+    max-width: 90%;
     margin: 0 auto;
     text-indent: 1.5em;
 }
@@ -15,7 +15,7 @@
     background: none;
     text-align: center;
     text-transform: uppercase;
-    padding: 60px 30px 30px 30px;
+    padding: 60px 10px 30px 10px;
 }
 
 .part-one{
@@ -23,6 +23,5 @@
 }
 
 .part-two{
-    background-color: #ededed;
     padding-bottom: 50px;
 }
