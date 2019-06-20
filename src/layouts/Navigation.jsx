@@ -1,13 +1,13 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import '../styles/navigation.css';
-import { slide as Menu } from 'react-burger-menu'
+import { stack as Menu } from 'react-burger-menu'
 
 const list = [
-    { name: 'about', path: "/about", exact: true },
-    { name: 'art corner', path: "/artcorner" },
-    { name: 'gallery', path: "/gallery" },
-    { name: 'contact', path: "/contact" },
+    { name: 'About', path: "/about", exact: true },
+    { name: 'Art corner', path: "/artcorner" },
+    { name: 'Gallery', path: "/gallery" },
+    { name: 'Contact', path: "/contact" },
 ]
 
 class Navigation extends React.Component {
@@ -34,7 +34,6 @@ class Navigation extends React.Component {
                 >
                     Art's Corner Café</h1>
                 <nav className="navigation">
-
                     {window.innerWidth < 992 ? (
                         <Menu styles={styles}
                             pageWrapId={"page-wrap"} isOpen={this.state.menuOpen}
@@ -69,7 +68,9 @@ const styles = {
         top: '16px'
     },
     bmBurgerBars: {
-        background: '#cecece',
+        background: '#b5b5b5',
+        height: '15%',
+        borderRadius: '10px'
     },
 
     bmCrossButton: {
@@ -86,15 +87,16 @@ const styles = {
     },
     bmMenu: {
         background: '#ededed',
-        padding: '2.5em 1.5em 0',
-        fontSize: '1.15em'
+        padding: '2.0em 0.5em 0',
+        fontSize: '1.15em',
+        opacity: '.95'
     },
     bmMorphShape: {
         fill: '#373a47'
     },
     bmItemList: {
         color: '#b8b7ad',
-        padding: '0.8em'
+        padding: '0.4em'
     },
     bmItem: {
         display: 'inline-block'
