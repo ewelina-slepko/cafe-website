@@ -1,4 +1,4 @@
-@media (min-width: 992px){
+@media (min-width: 425px){
     .navigation{
         z-index: 10;  
         justify-content: flex-end;
@@ -59,7 +59,7 @@
   }
 }
 
-@media (max-width: 992px){
+@media (max-width: 425px){
   .navigation{
     display: flex;
     position: absolute;

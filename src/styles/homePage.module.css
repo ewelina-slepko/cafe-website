@@ -1,0 +1,25 @@
+.container{
+    padding: 80px;
+    background: none;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.8;
+}
+
+.container span{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+@media (min-width: 992px){
+    .container{
+        padding: 100px 400px 100px 400px;
+    }
+}
+
+@media (max-width: 992px){
+    .container{
+        padding: 60px 50px 60px 50px;
+    }
+}

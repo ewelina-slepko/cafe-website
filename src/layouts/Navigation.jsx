@@ -34,7 +34,7 @@ class Navigation extends React.Component {
                 >
                     Art's Corner Café</h1>
                 <nav className="navigation">
-                    {window.innerWidth < 992 ? (
+                    {window.innerWidth < 425 ? (
                         <Menu styles={styles}
                             pageWrapId={"page-wrap"} isOpen={this.state.menuOpen}
                             onStateChange={(state) => this.handleStateChange(state)}
@@ -78,12 +78,12 @@ const styles = {
         width: '24px'
     },
     bmCross: {
-        background: '#bdc3c7'
+        background: '#878585'
     },
     bmMenuWrap: {
         position: 'fixed',
         height: '100%',
-        width: '80%'
+        width: '80%',
     },
     bmMenu: {
         background: '#ededed',
