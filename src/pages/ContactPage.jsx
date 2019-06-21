@@ -25,9 +25,10 @@ class Contact extends React.Component {
                 block: 'nearest',
                 behavior: 'smooth'
             }}>
+                <h3 style={{ fontSize: '2em', textAlign: 'center', padding: '20px', backgroundColor: 'rgb(237, 237, 237)' }}>Contact</h3>
                 <div className={styles["container"]} >
                     <form>
-                        <h2 style={{ padding: 12 }}>Write us a message: </h2>
+                        <h2 style={{ padding: 26 }}>Write us a message: </h2>
                         <textarea onChange={this.handleChange} value={this.state.value}></textarea>
                         <button data-aos="flip-down"
                             data-aos-offset="50"

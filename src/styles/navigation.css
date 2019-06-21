@@ -1,4 +1,4 @@
-@media (min-width: 425px){
+@media (min-width: 992px){
     .navigation{
         z-index: 10;  
         justify-content: flex-end;
@@ -59,7 +59,7 @@
   }
 }
 
-@media (max-width: 425px){
+@media (max-width: 992px){
   .navigation{
     display: flex;
     position: absolute;
@@ -73,7 +73,7 @@
     font-family: 'Dancing Script', cursive;
     text-align: right;
     color: #fff;
-    padding: 22px 16px 22px 22px;
+    padding: 17px 16px 17px 22px;
     background-color: #151616;
   }
 
