@@ -30,7 +30,7 @@ class Header extends Component {
 
     render = () => (
         <>
-            <div className={styles["container"]}>
+            <div className={styles.container}>
                 <TransitionGroup>
                     <CSSTransition
                         key={this.state.selected.id}

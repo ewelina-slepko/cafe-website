@@ -7,7 +7,7 @@
   padding: 60px 0;
 }  
 
-.img-responsive{
+.imgResponsive{
   flex: 1;
   width: 300px;
   height: 300px;
@@ -16,7 +16,7 @@
   border-radius: 2px;
 }
 
-.img-responsive:hover{
+.imgResponsive:hover{
   opacity: .8;
   transition: .5s;
 }

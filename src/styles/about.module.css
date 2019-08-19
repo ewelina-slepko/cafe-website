@@ -3,7 +3,7 @@
     justify-content: center;
 }
 
-.info_text p{
+.infoText p{
     padding: 10px 0;
     text-align: justify;
     max-width: 90%;
@@ -18,10 +18,10 @@
     padding: 30px 10px 30px 10px;
 }
 
-.part-one{
+.partOne{
     padding-bottom: 20px;
 }
 
-.part-two{
+.partTwo{
     padding-bottom: 50px;
 }

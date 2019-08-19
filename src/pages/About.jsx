@@ -10,9 +10,9 @@ const About = () => {
             behavior: 'smooth',
         }}>
             <h3 style={{ fontSize: '2em', textAlign: 'center', padding: '20px', backgroundColor: 'rgb(237, 237, 237)' }}>About</h3>
-            <div className={styles["container"]}>
-                <div className={styles["info_text"]}>
-                    <div className={styles["part-one"]} data-aos="fade-right"
+            <div className={styles.container}>
+                <div className={styles.infoText}>
+                    <div className={styles.partOne} data-aos="fade-right"
                         data-aos-offset="200"
                         data-aos-easing="ease-in-sine">
                         <h2>Our philosophy</h2>
@@ -29,7 +29,7 @@ const About = () => {
                     to fill the world with art and that the art belongs to all of us.</p>
                     </div>
 
-                    <div className={styles["part-two"]} div data-aos="fade-left"
+                    <div className={styles.partTwo} div data-aos="fade-left"
                         data-aos-offset="200"
                         data-aos-easing="ease-in-sine">
                         <h2>Coffee and drinks</h2>

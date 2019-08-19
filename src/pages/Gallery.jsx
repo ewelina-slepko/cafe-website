@@ -29,7 +29,7 @@ const Gallery = () => {
             return <div><img
                 src={img}
                 alt={img}
-                className={styles["img-responsive"]}
+                className={styles.imgResponsive}
             /></div>
         });
     return (
@@ -39,7 +39,7 @@ const Gallery = () => {
                 behavior: 'smooth'
             }}>
                 <h3 style={{ fontSize: '2em', textAlign: 'center', padding: '20px', backgroundColor: 'rgb(237, 237, 237)' }}>Gallery</h3>
-                <div className={styles["container"]}>
+                <div className={styles.container}>
                     {fullGallery}
                 </div>
             </ScrollIntoViewIfNeeded>
