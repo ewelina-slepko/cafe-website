@@ -1,6 +1,6 @@
 footer{
     background-color: #151616; 
-    color: #fff;
+    color: #d1d1d1;
     padding: 40px 0;
 }
 
@@ -53,7 +53,7 @@ footer{
 .copyright{
     text-align: center;
     color: #636364;
-    font-size: 14px;
+    font-size: 1rem;
     padding: 40px 0 20px 0;
 }
 
